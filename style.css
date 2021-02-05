@@ -2,6 +2,15 @@ body {
 	width: 800px;
 	margin: auto;
 }
-h1, h2, h3 {
+h1, h2 {
 	color: #E71;
+}
+.meetingTitle {
+	cursor: pointer;
+}
+.meetingTitle:hover {
+	color: #E71;
+}
+.rawNotes {
+	white-space: pre-wrap;
 }
