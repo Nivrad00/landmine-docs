@@ -28,7 +28,6 @@ body {
 }
 h2 {
 	color: #FFA700;
-	font-weight: 600;
 }
 .meetingTitle {
 	cursor: pointer;
@@ -41,7 +40,7 @@ h2 {
 }
 hr {
 	border: none;
-	border-bottom: 1px solid LightGray;
+	border-bottom: 1px solid #888;
 	margin: 20px -10px 0 -10px;
 }
 	
