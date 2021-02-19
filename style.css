@@ -1,16 +1,47 @@
+html {
+	background: #CFE4E4;
+}
 body {
 	width: 800px;
+	padding: 10px 50px 20px 50px;
 	margin: auto;
+	background: white;
+	color: #111;
 }
-h1, h2 {
-	color: #E71;
+#title {
+	color: #FF5500;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: "Fanwood Text";
+	margin-bottom: 0;
+	margin-top: 10px;
+	text-align: center;
+}
+#subtitle {
+	color: #666;
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 30px;
+	margin-top: -20px;
+	text-align: center;
+	font-family: "Open Sans"
+}
+h2 {
+	color: #FFA700;
+	font-weight: 600;
 }
 .meetingTitle {
 	cursor: pointer;
 }
 .meetingTitle:hover {
-	color: #E71;
+	color: #FFA700;
 }
 .rawNotes {
 	white-space: pre-wrap;
 }
+hr {
+	border: none;
+	border-bottom: 1px solid LightGray;
+	margin: 20px -10px 0 -10px;
+}
+	
