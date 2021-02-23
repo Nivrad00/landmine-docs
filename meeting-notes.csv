@@ -1,4 +1,4 @@
-﻿Fri 1-29-21,First meeting with client and HDFS team,"Darvin's notes
+Fri 1-29-21	First meeting with client and HDFS team	"Darvin's notes
  * VN sort of thing
  * progress through a full school day?
  * some other scenarios (others in powerpoint): bullying -- dirty looks; being called on in class
@@ -21,7 +21,7 @@ To do this week:
  * set up website (Darvin)
  * prepare individually for Level Design pres -- meet Mon 8:30 PM to finalize
  * start game design process"
-Tue 2-02-21,Catching up Prof. Pozefsky,"Darvin's notes
+Tue 2-02-21	Catching up Prof. Pozefsky	"Darvin's notes
  * prof suggested an after-school segment may allow for more freedom of choice (go to the park, go to the coffee shop, etc.)
  * they should get to choose the avatar/gender
  * what sort of diversity will there be in the characters?
@@ -32,7 +32,7 @@ Tue 2-02-21,Catching up Prof. Pozefsky,"Darvin's notes
  * talked about godot vs unity -- she seems fine with godot
  * visual style -- we're considering a generic VN style. prof says innovating in the visual design might not really be worth the time. rather, think about if it appeals to a broad range -- nothing that is very gendered, for example.
  * will the encounters be in the same order every time? (we could have them choose their own schedule.) will they increase in difficulty over time? (probably not)"
-Fri 2-05-21,Second client/team meeting (Darvin's notes),"customization of the experience
+Fri 2-05-21	Second client/team meeting (Darvin's notes)	"customization of the experience
  * the main experience should be a public, relatively racially diverse school
  * marisa also sees kids from charter schools -- a private/public distinction might be useful
  * there's also regional, class differences -- like dodes the school have metal detectors?
@@ -82,7 +82,7 @@ what marisa/the research team will work on
  * giving us wording for the ""justification for use"" section
  * drafting the script!
  * title!"
-,Second client/team meeting (Tova's notes + Marisa's comments),"1) We want the school environment to feel safe, or at least safe enough for the intervention to work without causing too many outliers in the data collection
+	Second client/team meeting (Tova's notes + Marisa's comments)	"1) We want the school environment to feel safe, or at least safe enough for the intervention to work without causing too many outliers in the data collection
 
 2) We want the school environment to be somewhat customized, so that students can choose their class agenda/schedule that day. 
 
@@ -114,17 +114,17 @@ After Dr. M left, we spoke about:
 
 14) Wayne brought up a good point: we don't want users to feel like they've made ""bad"" or ""wrong"" decisions. Instead of following up a ""wrong"" decision with more ""wrong"" decisions (as typical of other games), how about we introduce a coping mechanism every time a person chooses a ""wrong"" decision, so that we give the user an opportunity to boost their mood thermometer? In essence, a ""wrong"" decision will just lead to an opportunity to recover. ( Love this idea.)
 
-15) Darvin wanted to ask Dr. M if this intervention was going to extend to afterschool activities, or stay within the confines of the school building? (For dream big, let’s extend it, for minimal pilot, not necessary.)
+15) Darvin wanted to ask Dr. M if this intervention was going to extend to afterschool activities, or stay within the confines of the school building? (For dream big, let�s extend it, for minimal pilot, not necessary.)
 
 (I think the other question was about types of coping skills. Here are some examples (and we will want to elicit additional based on practice sessions): coloring book, mindfulness, fidget toy/stress ball, listening to music (could have negative consequences in class), going for a walk, visit to the counselor.)"
-Tue 2-09-21,Second instructor meeting,"prof pozefsky wonders if some schools might have better support for mental problems
+Tue 2-09-21	Second instructor meeting	"prof pozefsky wonders if some schools might have better support for mental problems
 she suggests you might want to make a point about choosing a good person as the ""safe person."" eg -- asking the player, do you trust them to be discreet? are they a kind person?
 names - something related to PrESR? social landmines? clearing landmines? something about the thermomter? (prof worried the thermometer might sound too much like an illness, but i think marisa suggested it) a day in the life? every day the same dream? re-entry/first day? beginning again, first day back, return to school? (send a note to the others with your ideas)
 OH AND A TAGLINE
 hey the coloring book could actually be a minigame
 get some bullet points on the design doc - get it done while you're thinking about it
 get godot development up and running - we should all be able to implement basic navigation between screens using buttons"
-Fri 2-12-21,Third client meeting -- final meeting of design phase,"research team came with info about high schools!! public, charter, and magnet
+Fri 2-12-21	Third client meeting -- final meeting of design phase	"research team came with info about high schools!! public, charter, and magnet
 
 jamie did magnet :)
 * a public school that focuses on a special purpose -- early college, IB, school of arts, etc.
@@ -155,7 +155,7 @@ so misc stuff about the game...
 * will the players have the choice of which coping strategy to use? probably, and we could have them actually do the estrategy -- color a book, circle breathing (like headspace), guided meditation
 * interns will start divvying up scenes and writing snippets of the script... exciting!!
 * Forward!"
-Thu 2-18-21 + Fri 2-09-21,End of sprint 1,"prof pozefsky went over the design doc with us -- she'll send written feedback later
+Thu 2-18-21 + Fri 2-09-21	End of sprint 1	"prof pozefsky went over the design doc with us -- she'll send written feedback later
 		
 we had a brief meeting with the research team, who got started on the draft
 
@@ -165,3 +165,17 @@ on the docket for this week:
  * choose a vn/narrative framework and lay down the groundwork
 
 to discuss next meeting: make a concrete plan for obtaining assets (ui elements + logo, character art, bg art, music)"
+Tue 2-23-21	Middle of sprint 1	"how much variability do we need -- do we make decisions at the scene lever or at a lower level, eg. storing the name of characters as a variable? determines how much we need to implement
+
+what customization do we need -- i suggested we wait until a rough draft and then discuss what can be customized. only do customization that affects the script -- the graphics don't matter as much (except maybe middle/high school)
+
+two decisions: script writing framework and graphical VN framework
+* use yarn for the former -- adapt yarn importer for our purposes (handling logic/code, delivering line by line) -- we like the visual editor
+* try interfacing it with rakugo (we like rakugo because it contains complex features like skip/history/rollback), but if we run into problems, try to write it from scratch
+
+for next week: try to get yarn and rakugo integrated -- at least clicking through a story and making choices -- and make a decision. also, be familiar enough with yarn to introduce it to the team on friday.
+
+ike: work on yarn presentation
+wayne: look more in depth in problems with rakugo
+ben: extending godot importer
+darvin: make a basic interface between yarn and godot"
