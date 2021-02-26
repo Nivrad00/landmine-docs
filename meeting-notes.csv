@@ -20,7 +20,7 @@ To do this week:
  * set up slack and bot (Ben)
  * set up website (Darvin)
  * prepare individually for Level Design pres -- meet Mon 8:30 PM to finalize
- * start game design process",
+ * start game design process"
 Tue 2-02-21,Catching up Prof. Pozefsky,"Darvin's notes
  * prof suggested an after-school segment may allow for more freedom of choice (go to the park, go to the coffee shop, etc.)
  * they should get to choose the avatar/gender
@@ -31,7 +31,7 @@ Tue 2-02-21,Catching up Prof. Pozefsky,"Darvin's notes
  * also ask her -- how important is it for the dialog to include the player's name? (is there research on this?)
  * talked about godot vs unity -- she seems fine with godot
  * visual style -- we're considering a generic VN style. prof says innovating in the visual design might not really be worth the time. rather, think about if it appeals to a broad range -- nothing that is very gendered, for example.
- * will the encounters be in the same order every time? (we could have them choose their own schedule.) will they increase in difficulty over time? (probably not)",
+ * will the encounters be in the same order every time? (we could have them choose their own schedule.) will they increase in difficulty over time? (probably not)"
 Fri 2-05-21,Second client/team meeting (Darvin's notes),"customization of the experience
  * the main experience should be a public, relatively racially diverse school
  * marisa also sees kids from charter schools -- a private/public distinction might be useful
@@ -81,7 +81,7 @@ what marisa/the research team will work on
  * what customizations to put for avatar and how they should bear out
  * giving us wording for the ""justification for use"" section
  * drafting the script!
- * title!",
+ * title!"
 ,Second client/team meeting (Tova's notes + Marisa's comments),"1) We want the school environment to feel safe, or at least safe enough for the intervention to work without causing too many outliers in the data collection
 
 2) We want the school environment to be somewhat customized, so that students can choose their class agenda/schedule that day. 
@@ -116,14 +116,14 @@ After Dr. M left, we spoke about:
 
 15) Darvin wanted to ask Dr. M if this intervention was going to extend to afterschool activities, or stay within the confines of the school building? (For dream big, let’s extend it, for minimal pilot, not necessary.)
 
-(I think the other question was about types of coping skills. Here are some examples (and we will want to elicit additional based on practice sessions): coloring book, mindfulness, fidget toy/stress ball, listening to music (could have negative consequences in class), going for a walk, visit to the counselor.)",
+(I think the other question was about types of coping skills. Here are some examples (and we will want to elicit additional based on practice sessions): coloring book, mindfulness, fidget toy/stress ball, listening to music (could have negative consequences in class), going for a walk, visit to the counselor.)"
 Tue 2-09-21,Second instructor meeting,"prof pozefsky wonders if some schools might have better support for mental problems
 she suggests you might want to make a point about choosing a good person as the ""safe person."" eg -- asking the player, do you trust them to be discreet? are they a kind person?
 names - something related to PrESR? social landmines? clearing landmines? something about the thermomter? (prof worried the thermometer might sound too much like an illness, but i think marisa suggested it) a day in the life? every day the same dream? re-entry/first day? beginning again, first day back, return to school? (send a note to the others with your ideas)
 OH AND A TAGLINE
 hey the coloring book could actually be a minigame
 get some bullet points on the design doc - get it done while you're thinking about it
-get godot development up and running - we should all be able to implement basic navigation between screens using buttons",
+get godot development up and running - we should all be able to implement basic navigation between screens using buttons"
 Fri 2-12-21,Third client meeting -- final meeting of design phase,"research team came with info about high schools!! public, charter, and magnet
 
 jamie did magnet :)
@@ -154,7 +154,7 @@ so misc stuff about the game...
 * will having an IEP (individualized education plan) matter? most kids wont anyway, and it won't affect the experience much. also re-entry plans also have a lot of the same thinsg as a 504 (accomodation), like a ""pass."" this also goes back to support -- a school that has its act together may offer stuff like this. 
 * will the players have the choice of which coping strategy to use? probably, and we could have them actually do the estrategy -- color a book, circle breathing (like headspace), guided meditation
 * interns will start divvying up scenes and writing snippets of the script... exciting!!
-* Forward!",
+* Forward!"
 Thu 2-18-21 + Fri 2-09-21,End of sprint 1,"prof pozefsky went over the design doc with us -- she'll send written feedback later
 		
 we had a brief meeting with the research team, who got started on the draft
@@ -164,7 +164,7 @@ on the docket for this week:
  * everyone should commit and pull from the repo to make sure it works
  * choose a vn/narrative framework and lay down the groundwork
 
-to discuss next meeting: make a concrete plan for obtaining assets (ui elements + logo, character art, bg art, music)",
+to discuss next meeting: make a concrete plan for obtaining assets (ui elements + logo, character art, bg art, music)"
 Tue 2-23-21,Middle of sprint 2,"how much variability do we need -- do we make decisions at the scene lever or at a lower level, eg. storing the name of characters as a variable? determines how much we need to implement
 
 what customization do we need -- i suggested we wait until a rough draft and then discuss what can be customized. only do customization that affects the script -- the graphics don't matter as much (except maybe middle/high school)
@@ -178,4 +178,11 @@ for next week: try to get yarn and rakugo integrated -- at least clicking throug
 ike: work on yarn presentation
 wayne: look more in depth in problems with rakugo
 ben: extending godot importer
-darvin: make a basic interface between yarn and godot",
+darvin: make a basic interface between yarn and godot"
+Fri 2-26-21,Client meeting,"we decided what we'd do for the rest of the week:
+* ben: logic parser
+* darvin: line unique ids + starting anywhere in the scene
+* wayne: look at saving/loading/hiding
+* ike: continue exploring rakugo
+
+NOTE TO SELF: BRING UP ART/MUSIC NEXT TIME"
