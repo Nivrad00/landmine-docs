@@ -188,3 +188,23 @@ Fri 2-26-21,Client meeting,"we decided what we'd do for the rest of the week:
 NOTE TO SELF: 
 BRING UP ART/MUSIC AT NEXT CLIENT MEETING
 BRING UP GEEKBOT AT NEXT INSTRUCTOR MEETING"
+Tue 3-02-21,End of sprint 2,"SPRINT 3 GOALS
+
+* start on software design doc 
+* choose between dynamic and precompiled methods of integrating yarn and rakugo by halfway 
+* add yarn resources to the website
+* start using slack
+* prepare for demo by friday
+* (do we NEED rollback and saving within scenes?)
+* look into premade visual assets and present to marisa
+
+RESPONSIBILITIES
+
+ben: keep working on yarn syntax parsing
+ike and wayne: work on precompiled yarn to rakugo system
+darvin: work on dynamic yarn to rakugo interface
+ike: look at premade asset availability/costs
+
+END OF SEMESTER GOALS
+
+stock vn functions, mood thermometer, simple customization (wait for more script to be written and rely on marisa's judgement), one minigame"

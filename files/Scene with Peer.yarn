@@ -1,0 +1,89 @@
+title: Start
+tags: 
+colorID: 2
+position: 540,-343
+---
+Peer: Hey, you haven’t been here in a while. Where have you been?
+[[I have been feeling sick|concerned]]
+[[I just got back from the hospital|concerned]]
+[[I don’t really want to talk about it|teacher]]
+===
+title: teacher
+tags: 
+colorID: 0
+position: 590,-66
+---
+<<if $counselor is "peer">>
+    Peer: Sure let's talk more during lunch!
+
+Teacher: Hi $name, I noticed that you have been gone for a few days, is everything okay?
+[[No, I have been at the hospital|support]]
+[[No, but I do not want to talk about it right now|support]]
+[[Yes, everything is fine|lunch]]
+
+<<else>>
+
+[[lunch]]
+===
+title: support
+tags: 
+colorID: 0
+position: 874,-135
+---
+Teacher: Okay, well is there anything that I can do to support you?
+<<set $mood to $mood + 10>>
+[[Yes, I just need the missing assignments |lunch]]
+[[No, I got it |lunch]]
+[[Yes, I actually wanted to talk about what would work best for me|teacherCounselor]]
+===
+title: lunch
+tags: 
+colorID: 0
+position: 841,203
+---
+<<if $counselor is "peer">>
+    Peer: What do you want to talk about?
+    [[What should I do now |peerCounselor]]
+<<else>>
+    [[Bully Scene?|Bully]]
+===
+title: teacherCounselor
+tags: 
+colorID: 0
+position: 1202,-141
+---
+<<set $counselor to "teacher">>
+<<set $mood to $mood + 25>>
+===
+title: peerCounselor
+tags: 
+colorID: 0
+position: 1181,110
+---
+<<set $mood to $mood + 25>>
+===
+title: Bully
+tags: 
+colorID: 0
+position: 1186,343
+---
+<<set $mood to $mood - 25>>
+===
+title: concerned
+tags: 
+colorID: 0
+position: 285,-64
+---
+Peer: I hope you are feeling better. Do you want to talk about it at all?
+[[No, I am fine|teacher]]
+[[Yes, but I need some time first|teacher]]
+[[Yes, how about at lunch?|setPeer]]
+===
+title: setPeer
+tags: 
+colorID: 0
+position: 377,206
+---
+<<set $counselor to "peer">>
+[[teacher]]
+===
