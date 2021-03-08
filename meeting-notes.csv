@@ -217,3 +217,19 @@ we had a convo about assets and funding - we'll start with free assets for now (
 we helped marisa come up with ideas about funding bc she's applying for a grant in order to maybe make a more extended version of the game -- art, voice acting, etc
 
 we went over the yarns wihth the writing team and made sure they were good -- also set up a gdrive for yarn stories"
+,Tova's notes,"Notes: 
+-You should have all received a new social landmines zoom link from me. Please use that recurring link every Friday (with the exception of next week). Let me know if you didn't receive it, and/or if you feel strongly about meeting on another day next week (Mon-Wed).
+-Luckily, we have a budget (up to $10,000) for this project. Allocations should go as follows (with some bend here and there): 
+              -artist
+              -UI designer
+              -voice actor
+              -musician 
+-As Darvin clarified for us, we should be saving yarn docs as either .yarn or .yarn.text. If you don't have the yarn application, save as .yarn.text. You can open a .yarn.text in notepad
+-whenever you want text to come from a specific person, make sure the speaker is clear via ""name:"". Without it, it will just seem like the game is posing questions/comments. 
+-we spoke about cartoon vs. life-like images. The cartoon ones are free, and while Ike chose characters with anime-like flare, we ARE able to select different skin colors and other defining features, unique to the user. The life-like images are NOT free. The group preference is towards cartoon, but perhaps finding a different (non-anime?) art form? 
+-Darvin mentioned that we are aiming for 3 different emotions/expressions for each character: happy, sad, and one unique to the character (a smirk, friendly smile, etc). 
+-Hack: we have to reupload and save as yarn every time we make edits to our yarn project. 
+-If we want the name of the user to be inserted elsewhere, enter {$player}
+-each sentence of text needs a different line, so that it doesn't look too clustered 
+-we are uncertain how to allow the user permissions to type in answers, so for now, we will write: ""type in answer"" in italics
+-while there may not be a hard deadline for the cs team to have scripts, we should check with Dr. M. Marisa, what are your tentative goals/deadlines for these scripts? "
