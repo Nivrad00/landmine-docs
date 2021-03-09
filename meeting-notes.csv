@@ -233,3 +233,13 @@ we went over the yarns wihth the writing team and made sure they were good -- al
 -each sentence of text needs a different line, so that it doesn't look too clustered 
 -we are uncertain how to allow the user permissions to type in answers, so for now, we will write: ""type in answer"" in italics
 -while there may not be a hard deadline for the cs team to have scripts, we should check with Dr. M. Marisa, what are your tentative goals/deadlines for these scripts? "
+Tue 3-09-21,Middle of sprint 3,"we presented both the dynamic and precompiled systems, as well as the advanced yarn importer functionality (conditionals, setting variables, jumping, etc)
+
+we chose the dynamic system over the precompiled system because it is easier to integrate with ben's yarn importer work. we'll keep the precompiled version on a separate branch
+
+to do next week (last week of sprint 3)
+* ben & darvin: integrate me and ben's systems (using one of the actual scripts, now)
+* ike: present update on yarn on friday (jump syntax, character/bg syntax, music, conditionals and variables)
+* darvin: fix bugs with vanilla features (rollback crash, save/load crash, skip, text speed)
+* customize rakugo's vanilla features/ui (hide/show, volume controls (ike), etc)
+* ben & wayne: develop a visual and music system (showing bgs, showing characters with location and facial expression, playing music)"
