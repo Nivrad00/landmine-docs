@@ -243,3 +243,21 @@ to do next week (last week of sprint 3)
 * darvin: fix bugs with vanilla features (rollback crash, save/load crash, skip, text speed)
 * customize rakugo's vanilla features/ui (hide/show, volume controls (ike), etc)
 * ben & wayne: develop a visual and music system (showing bgs, showing characters with location and facial expression, playing music)"
+Tue 3-16-21,End of Sprint 3,"week 4 goals
+
+visual/audio system (ben, wayne)
+ + placeholder visuals (ike)
+
+finish debugging/customizing base function (darvin)
+ + volume control (ike)
+
+jumping between scenes (darvin)
+
+present advanced yarn features to team (ike)
+ + have syntax figured out by then (ben, wayne)
+ + maybe start the logo/thermometer design process while we're there
+
+start on mood thermometer (wayne)
+ + what orientation? good or bad? 
+
+"
