@@ -261,3 +261,38 @@ start on mood thermometer (wayne)
  + what orientation? good or bad? 
 
 "
+Fri 3-19-21,Client meeting,"scuffed post-meetings notes
+
+ike presented the new syntax, including: show, hide, load, play, jump, if, else, set, and the thermometer (on a scale of 0-100)
+
+ike also showed off some characters and we set up a system for making new characters and emotions
+
+i went over some yarn scripts -- feedback included spacing lines better, making the {$player} more vocal, and using the jump syntax
+
+dr. maraccini said she would find a thermometer she likes for us to use as an example -- generally, up is bad, and there are five colors (green to red) based on how high the thermometer is. she is also interested in experimenting with the player inputting their own mood instead of being told by the game what their mood should be, which is problematic in a clinical setting. she's currently working on a questionnaire to put at the start of the game to determine the initial mood.
+
+dr. maraccini will be reviewing the scripts soon -- she's going to get someone to compile all the yarn scripts into one readable document.
+
+we brainstormed some logo ideas (school, apple, pointer, running person, thermometer) and got the ball rolling with jamie's sister. we'll wait on designing the thermometer until dr. maraccini gets back to us
+
+the research team is going to talk about the order of scenes and linking them together using <<load>>.
+
+i showed off some music samples and volunteered to come up with some ideas for the game. ike volunteered to source some backgrounds.
+
+ike presented the new syntax, including: show, hide, load, play, jump, if, else, set, and the thermometer (on a scale of 0-100)
+
+ike also showed off some characters and we set up a system for making new characters and emotions
+
+i went over some yarn scripts -- feedback included spacing lines better, making the {$player} more vocal, and using the jump syntax
+
+dr. maraccini said she would find a thermometer she likes for us to use as an example -- generally, up is bad, and there are five colors (green to red) based on how high the thermometer is. she is also interested in experimenting with the player inputting their own mood instead of being told by the game what their mood should be, which is problematic in a clinical setting
+
+dr. maraccini will be reviewing the scripts soon -- she's going to get someone to compile all the yarn scripts into one readable document.
+
+we brainstormed some logo ideas (school, apple, pointer, running person, thermometer) and got the ball rolling with jamie's sister. we'll wait on designing the thermometer until dr. maraccini gets back to us
+
+the research team is going to talk about the order of scenes and linking them together using <<load>>.
+
+i showed off some music samples and volunteered to come up with some ideas for the game. ike volunteered to source some backgrounds.
+
+new responsibilities:"
