@@ -296,3 +296,69 @@ the research team is going to talk about the order of scenes and linking them to
 i showed off some music samples and volunteered to come up with some ideas for the game. ike volunteered to source some backgrounds.
 
 new responsibilities:"
+,Tova's notes,"First, some technical notes: 
+-when we want to reveal different characters and scenes, we will now use the 
+<<show character name character emotion character orientation on screen>>
+For example: 
+<<show Chad angry left>>
+make sure to leave a space between character name and mood?
+Same goes for background (minus the emotion and orientation, since it will be the entire screen):
+<<show outside school>>
+This will give us some insight into what the visuals will be once we have those established. 
+
+Speaking of--Ike has created a PowerPoint of character designs and has posted it both on the website and drive. If you want to give creating characters a whirl, copy the empty slide template in the PowerPoint and create a new character! If you do that, please save your creations to the drive. 
+
+With regards to finding backgrounds, Darvin pointed us in the direction of two websites: pexels and unsplash. These have free stock images. Ike volunteered to scroll through and find relevant backgrounds (school cafeteria, classroom, hallway, etc), but please feel free to go through these sites as well! If you do save any photos you find, again, please upload to the drive. 
+
+Back to technicals: 
+-As Ike showed us in his presentation, we can also assign certain values to characters:
+<<set $counselor to ""teacher"">>
+OR 
+<<set $lunchmoney to 100>>
+Teacher is a name, and thus needs """". 100, being a numerical value, does not. Reminder that $ represents a variable name.
+Another thing we discussed is ""if, else"" statements. That would go as follows:
+<<if $counselor is ""teacher>>
+[value|value]
+<<else>>
+[value2|value2]
+ If you would like to see more examples of this, please refer to Ike's uploaded presentation on the drive. 
+To hide characters, we simply do: <<hide name of character>>
+Example: <<hide Chad>>. Because Chad is just the worst. 
+To start/stop playing music: <<play themesong>> and <<stop themesong>> 
+At least it's stop for now...
+
+Speaking of music, we learned that Darvin composes music, which just SUPER ROCKS. He played a few samples of his, and we agreed that we need a tune neither too upbeat nor somber. Perhaps the tone will correspond with the mood of the respective scenes? But, also, maybe that would just be too much work. We shall see. Regardless, Darvin has offered to make some samples and present them to us (whenever he is able). THANK YOU! 
+
+We then spoke about the mood thermometer. Dr. M said that she would send a mood thermometer that she likes so that we could have a visual. When determining which ""temperature"" to start with, Dr. M came up the great idea of having each user complete a little questionnaire to assess their state of mind at the start of the game. For example, if the user is really down, the thermometer would start at 100. If they are really up, then 0. So-so=50. And so on. So, our min is 0 and max is 100. 
+While we write the script, we should keep that range in mind, so that we can add and subtract an appropriate number of points per question. Dr. M is working on the questionnaire now and will probably send in the near future. 
+
+Reminder to everyone: 
+-the lab team has compiled/are compiling a long google doc that just contains txt versions of the yarn files, so that Dr. M can edit them to make them more clinically supported. Once we have those edits, we will need to revamp our scripts in yarn as well. 
+
+Other small technical reminders: 
+-Make sure to put | between your answer choice and node choice, or the game will not flow. 
+Example: [I'm sad, mom. |sad] 
+You can then entitle the next node ""sad""
+
+-If you know the name of the next scene, then enter it when you are finished completing a scene on yarn: 
+<<load next scene name>>
+Ex: <<load reentry meeting>>
+
+If we have any other technical questions, Darvin and the CS team said we could reach out whenever.
+
+Lastly, we discussed logo. Jamie's sister is a graphic designer, so we may be using her services to help us develop our game logo and thermometer (Thanks, Jamie and her sister!). Ideas for logo: 
+-walking/running/moving person
+-simplified version of the thermometer (once we've made it)
+-a retro green forward arrow 
+-simplified school building
+-a red apple 
+
+Questions for Dr. M:
+-how many emotions should we assign per character? We were thinking 2-3, and we can play with facial expressions on Ike's shared PowerPoint. 
+-what should the order of the scenes be? Should they correspond with the order of the scenes in the professional feedback form on REDcap? 
+
+PHEW! Thank you all! Have a great weekend!
+
+Best, 
+
+Tova C. "
