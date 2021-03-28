@@ -362,3 +362,92 @@ PHEW! Thank you all! Have a great weekend!
 Best, 
 
 Tova C. "
+Tue 3-28-21,First revisions and overhaul from Dr. M,"Friends: 
+
+ 
+
+First off, a big thank you for staying later than our scheduled time today to talk out these new changes. I know there were a lot of them, but there's no doubt that we can make adjustments and eventually make do. ?? 
+
+ 
+
+I will first provide notes from my meeting with Marisa, and then provide notes from our meeting today, specifically: 
+
+ 
+
+Meeting w/ Marisa Notes: 
+
+-we want to make sure that we don't have a bunch of stressful scenes back-to-back. This involves including some neutral scenes (a hallway with just a few people, mild facial expressions. No need for bullying/stress in every scene). This also makes the game more realistic, because not every experience is (nor should be) stressful. 
+
+-On that note, not every line of every scene should tie back to the user returning from the hospital. Regular HS stuff can be stressful enough, so find a good balance between the two. 
+
+-Here are the major changes: on the preassessment questions, we will be testing for the stressors: social/relationship, academic, and extra-curricular. What the user ranks as most important of the three will either be translated to a bullying or cyberbullying scene later on in the game. The stressor ranked second, will be translated to a bullying or cyberbullying scene later on (depending on which stressor was assigned to which scene before). 
+
+-In this preassessment, we will give users the opportunity to fill out their demographic info and create their avatars accordingly. We may or may not include school demographic information as well. On this note, the names for other players (teacher, peer, etc.) used throughout the game should be ethnically diverse (aka not just Chad). 
+
+-when we present the mood thermometer, we want to make sure the user knows it's for the game, so it's important to label it as a ""game therm"" or ""mood est."" We don't want players changing their mood based on what the thermometer indicates. This thermometer will be shown at all times. 
+
+-There should be a GET HELP button shown on the screen at all times. This will act as an emergency button of sorts. When the user presses this, they will be given a list of resources (national suicide hotline, etc.). 
+
+-There will be core scenes and supplemental scenes. For ex: core scenes are homeroom, crowded hallway, meeting with teacher, cafeteria, etc. Supplemental scenes include a bathroom, a neutral hallway, etc. These aren't essential to the trajectory of the game per se, but they break up stressful scenes. Refer to the document I sent earlier for a scene-by-scene breakdown. 
+
+-the reentry meeting will be at the top of the game. Things that happen in this meeting will determine the trajectory of the game thereafter. For example: if a user doesn't request resources when prompted, they won't receive said resources throughout the game. For example: they could request to leave class 5 mins early to avoid crowded hallways, but if they don't, they will always experience a crowded hallway. Those who ask and receive said accommodations will not experience a crowded hallway. Make sense? 
+
+-There are resources/coping always available to users: bathroom breaks, going to counselor, deep breathing, going to a counselor, teacher, peer at lunch. Alternatively, resources such as coloring in a coloring book or using a fidget spinner are available only to those who request it in the reentry meeting. 
+
+-The conclusion of the game should be something about how the user did during the game. We should discuss in further detail on how this will materialize. 
+
+ 
+
+ 
+
+Notes from 3/26 meeting: 
+
+-we could use If, then phrases in yarn. For example:
+
+<<If $trigger is ""academics"">>
+
+[]
+
+[]
+
+[]
+
+<<ifelse if $trigger is ""social"">>
+
+[]
+
+[]
+
+[]
+
+<<ifelse if $trigger is ""extra curricular"">>
+
+[]
+
+[]
+
+[]
+
+<<endif>>
+
+ 
+
+Notice how we were able to input that all in one node. And to end the sequence, we simply put <<endif>>. Thanks to Ike, this will expedite the process of these changes. A template of these if, else statements in yarn are on the drive (thanks, Ike!). 
+
+ 
+
+-our points system will be based on the user's answers to questions about stressors at school. 
+
+-we had a question for Dr. M: what medium will the questionnaire be? Not yarn? If not, what? 
+
+-should the conclusion of the game be a solo experience (game asks user only) or one with user plus faculty and staff at school?
+
+-SIDE NOTE: Jamie's sister will have a logo draft/prototype next week! EEEEK!
+
+ 
+
+Thank you all! If you have any questions, please let me know. Thanks again for your flexibility and patience!
+
+ 
+
+Happy weekend!"
