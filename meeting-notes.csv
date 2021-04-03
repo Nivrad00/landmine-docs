@@ -469,3 +469,71 @@ next two weeks
 week one:
  * get full game playable, if not functional
  * draft up ui"
+Sat 4-03-21,Clarifications on overhaul from Dr. M,"Hey y'all, i'm filling in for Tova as the note taker :) Sorry the notes are so long, but I wanted to make sure everything is clear, including reiterating what we already covered in previous meetings. Dr. M, feel free to correct any of this.
+
+The most important topics we covered are:
+1. Deciding that the dev team will help with the technical side of the scripts
+2. Clarifying how the bullying and texting scenes will branch based on the ""what's most important to you?"" question
+3. Clarifying how the game will change based on asking for resources in the reentry meeting
+4. Clarifying how the thermometer will change based on the ""how stressful do you find these situations?"" question
+
+
+
+DEV TEAM HELPING WITH SCRIPTS
+
+We decided the technical aspect of Yarn was too complicated and was taking up too much of the interns' time, so now the dev team will help with the scripts! This is how it'll work: the interns will continue to work on the scripts, but focus on the content, and not worry about the technical stuff. If you don't know how to do something technical, you can either make an attempt and move on, or leave a note to the dev team such as:
+
+""Note: I want this node to happen if the player chose the extracurricular category as most important. Otherwise, go to THIS node""
+
+Or even:
+
+""***If the player asked for resource in the reentry meeting, they won't get in trouble for leaving the classroom. But if they didn't ask for resources, then this will happen:""
+
+Basically, just make sure the intention of the scene comes through. Once the scenes are fully written, the dev team will go through the scripts and correctly implement the technical stuff before plugging them into the game.
+
+
+
+""WHAT'S MOST IMPORTANT TO YOU"" QUESTION
+
+In the intro questionnaire, the player will choose two things that are most important to them, each of which falls into one of the four major categories (for now): romance, friendship, extracurriculars, and social. Correspondingly, there will be four versions of the bullying scene and four versions of the texting scene, and the player will see the version that corresponds to their choices.
+
+As we discussed last meeting, the way to implement these different versions is to branch the scene using <<if $trigger is ""..."">> and other commands. Writers, you can continue using these commands if you'd like, but don't feel obligated to -- just make sure the content for all four categories is present!
+
+Within these four categories, there are also additional details based on the player's choices that affect the scenes. For now, the only relevant details are 1) the gender and pronouns of the player's partner, and 2) the type of extracurricular activity the player chose. Don't worry about the gender and pronouns -- the dev team can make sure they match later on. However, the ""extracurricular"" version of the bullying and texting scenes should be written in a way that accommodates different activities. For example, you might write:
+
+""Chad: Hey, weren't you a part of that stupid (activity)?""
+
+With the intention that the dev team will fill in the proper activity. You can get as fancy as you'd like - here's an example I just came up with.
+
+""(If the player chose sports) Chad: Hey, how come our team hasn't won a single game this season?
+(If the player chose something artistic) Chad: I didn't know they let people with no talent into those clubs!
+Peer: Hey, leave them alone! I'd like to see you (paint a picture, score a goal, etc.)""
+
+However, DON'T write totally separate scenes for each activity -- just small changes will do. Dr. M isn't sure if this will be too restrictive or not, since it could be difficult to write scenes that cater to every type of activity... but this is the plan for now!
+
+
+
+ASKING FOR RESOURCES IN THE REENTRY MEETING
+
+Dr. M confirmed that if the player asks for certain resources in the reentry meeting (for example, permission to leave class early), the game will allow the player to use those resources later on. This is another situation where you should leave notes to the dev team -- if you want an aspect of your scene to change based on which resources the player asked for, just make a note of it somewhere.
+
+
+
+""HOW STRESSFUL DO YOU FIND THESE SITUATIONS"" QUESTION
+
+Dr. M clarified that the response to this question will determine how drastically the thermometer changes in each scene. For example, if the player finds crowded areas very stressful, the thermometer will be more volatile in the crowded hallway scene. This is something that can be taken care of entirely by the dev team. For now, continue leaving notes where you think the thermometer should increase or decrease.
+
+
+
+OTHER TOPICS
+
+We presented a tech demo - Dr. M likes the thermometer (simpler is better!) and thinks the segmented colors are fine because it looks how it does in CBT.
+
+Dr. M proposed some ideas for the ending: perhaps a congratulations message, then some sort of list of strategies, like ""you opted in to blah blah blah - consider asking your school counselor about it"" or, ""you found this scene difficult - consider telling your school counselor about it."" She'll think about the specific text further while we implement the technical side.
+
+We refined the identity and school questions we're going to ask on the questionnaire. To simplify things, we're now only asking for the player's name and pronouns -- not race, sexuality, type of school, class schedule, or anything else. We're considering giving the player options for the race/gender of their friend as well, but for now we'll make the friend a generic Black or brown person.
+
+
+
+Hope you have a nice rest of your weekend!!
+Darvin"
