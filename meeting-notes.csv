@@ -552,3 +552,34 @@ Fri 4-09-21,Another client meeting,"just for my own benefit (and ike's)
 * we went through the full game demo which was a good visual indicator for things like ""the choices can't be too long."" dr. m liked the bgs :slight_smile: 
 * the counselor meeting is a scene that can be accessed at any point through the ""coping strategies"" menu if you asked for it in the reentry meeting, otherwise it's only available during lunch and hallway scenes (someone will have to implement that)
 * we showed the questionnaire demo and are sending dr. m questions about which pronouns to include and whether the sliders should snap to integers"
+,Tova's notes,"Friends! Hello!
+
+The notes from today's meeting will mostly be a list of reminders/clarifications for our benefit! 
+
+To start, we don't want to call the stimuli we're gathering from the screening questions ""triggers,"" but rather ""passions"", ""interests"", ""priorities"", etc. These are split into 4 categories:
+1) Friendships
+2) Romance
+3) Extracurricular 
+4) Academics
+
+Therefore, every choice on the list that the user will see (i.e. my girlfriend, making cool art, doing well in school, etc.) will tie into one of the above categories. The user will be prompted to list their top two priorities, and then one will translate into the bullying scene in the cafeteria and the other into the social media madness scene. Does this make sense? 
+Dr. M, let me know if I'm missing anything here. 
+
+The other prescreening questions, however, will only determine the ""point system"" of the mood thermometer. Wayne showed us that the user will be able to rate their current mood using the thermometer, which will give them a starting off point. From there, however, points will be determined based on how well users are facing their greatest struggles. For example: if someone ranks being in crowded social situations an 8/8 on the difficulty scale, then if they do well in a crowded hallway scene/if they ask for supports to avoid crowded hallways in the reentry meeting, their thermometer will shoot up. Does that make sense? 
+
+Dr. M: Do you like the idea of having a sliding scale from 0-8 to rank difficulty of each scenario in the screening questions, or would you prefer a different format? 
+
+Speaking of supports, if a user doesn't request supports in the reentry meeting, then the only times in which they can have additional meetings/time with a school professional/peer will be during lunch time and transitions to class (hallways). 
+
+A general reminder about scenes: they should be as simple and user friendly as possible. Everyone on the lab team should put their initials next to the scenes they are working on, and reach out to others in the group, if they're struggling to finish/develop their scenes. 
+
+Important?: Marraccini lab people--please reach out to Dr. M to schedule a 1-1 with her. This meeting with serve to clarify and reorganize the structure and content of specific scenes you're working on. 
+Question for Dr. M: Will these 1-1s replace next Friday's meeting, or should we still meet as a group next week? 
+
+On that note, these questions will directly tie into the scenes portrayed in the cafeteria bullying and social media scenes. All the other scenes can be a mixed bag of post-hospitalization content and regular HS stressors. 
+
+Clarifying question for Dr. M: which group of pronouns would you like to include in the dropdown menu at the beginning of the game? So far, we have she/her/hers, he/him/his, they/them/theirs, and /xe/xe/xyrs. Are we missing anything? 
+
+?That's all for today! Y'all--the game looks amazing right now! Thank you all for your hard work, because it's all coming together!
+
+Have a great weekend, and please reach out to me with any questions!"
