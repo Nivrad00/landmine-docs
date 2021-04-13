@@ -548,7 +548,7 @@ ike: ui changes
 "
 Fri 4-09-21,Another client meeting,"just for my own benefit (and ike's)
 * we talked about one-on-one meetings, we'll do it at the end after the writers have finished the content, which means we might have to complete it in a rush but it shouldn't be too much work
-* the four categories are extracurricular, academic, romantic, and friendships
+* the four categories are extracurricular, academic, romantic, and friendships (CORRECTION: it's extracurricular, social, romantic, friendships. we were confused but marisa clarified after the meeting)
 * we went through the full game demo which was a good visual indicator for things like ""the choices can't be too long."" dr. m liked the bgs :slight_smile: 
 * the counselor meeting is a scene that can be accessed at any point through the ""coping strategies"" menu if you asked for it in the reentry meeting, otherwise it's only available during lunch and hallway scenes (someone will have to implement that)
 * we showed the questionnaire demo and are sending dr. m questions about which pronouns to include and whether the sliders should snap to integers"
@@ -583,3 +583,25 @@ Clarifying question for Dr. M: which group of pronouns would you like to include
 ?That's all for today! Y'all--the game looks amazing right now! Thank you all for your hard work, because it's all coming together!
 
 Have a great weekend, and please reach out to me with any questions!"
+Tue 4-13-21,End of sprint 5,"speaker box should disappear when no one's speaking 
+declutter UI - change skipping indicator, move coping strats and menu buttons together?
+still gotta change the quick buttons and test ""back""
+make coping strategies buttons all the same color
+separate questionnaire into multiple scenes?
+make odd numbers selectable on the sliders
+fix ending screen/make it consistent with questionnaire
+we could make counselor meeting a minigame instead of a scene...
+thermometer question in questionnaire was unintuitive for prof. pozefsky and didn't match the 0-10 description
+
+last sprint!!
+* integration of questionnaire (wayne, ben)
+  * including thermometer slider (wayne)
+* bug fixes (everyone)
+  * bar with no speaker (ike)
+* minigames 
+  * coloring book (darvin)
+  * fidget spinner (darvin/ben)
+  * breathing (ike)
+  * counselor (ben) [design this week - implement next]
+* editing ui (ben)
+* editing scripts [schedule this week - perform next)"
