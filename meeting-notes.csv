@@ -653,3 +653,30 @@ new scripts
 make the characters
 replace bgs
 thermometer algorithm"
+Fri 4-23-21,Followup on 1 on 1 editing meetings!,"for the SUDS scale: we can write thermometer changes like this:
+    set $mood to $mood + $(variable)
+and the variable will be either 10, 20, or 30 depending on how the user set the SUDS scales in the questionnaire
+
+rollback is fine - marisa's not big on the ability to go back and change your decision, but she likes the QOL of going back if you misread or misclicked
+
+we demod the new minigames, graphics, and cafeteria scene
+
+we need to providee some screenshots for a grant proposal, but not in a hury
+
+the writers are pretty much done with script writing (after much toil) and now we're in the implementing phase. marisa will write short descriptions/scripts for all the unwritten ""neutral"" scenes, which darvin will work on implementing. meanwhile, the others will implement the scenes they helped edit, as follows:
+
+1. reentry meeting  tova/wayne - in google doc sent via email
+1.5. counselor      noelle (not edited) - in folder
+2. hallway          unwritten
+3. homeroom         unwritten, may involve a book and a bell
+4. hallway          unwritten
+5. class1           morgan (not edited) - in folder 
+6. hallway          morgan/ben - in folder
+7. cafeteria        jamie/darvin - already implemented
+8. hallway          unwritten
+9. class2           unwritten
+10. teacher meeting morgan/ben - in folder
+11. hallway         noelle/ike - in folder
+12. walk home       tova/wayne - in google doc sent via email
+
+marisa interviewed her first adolescent and she said the texing scene was really important!"
