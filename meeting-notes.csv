@@ -680,3 +680,45 @@ the writers are pretty much done with script writing (after much toil) and now w
 12. walk home       tova/wayne - in google doc sent via email
 
 marisa interviewed her first adolescent and she said the texing scene was really important!"
+Tue 4-27-21,End of sprint 6,"NOTE: ask marisa to do a full playthrough of the script at some point! (also poke her for those scene descriptions...)
+
+UI
+ X STYLE UI, INCLUDING NEW MAIN MENU
+ * SET ICON AND SPLASH SCREEN (darvin)
+ X ADD HELP BUTTON, CHANGE QUICK MENU BUTTONS
+ * WRITE ABOUT SCREEN (darvin)
+
+CONTENT
+ * IMPLEMENT ALL SCRIPTS (unwritten - darvin, everything else - individual)
+ * MAKE ALL CHARACTERS (ike)
+ * REPLACE THOSE TWO BGS (ike) 
+
+OTHER
+ X FINISH MINIGAMES
+ ? MAKE DECISIONS IN REENTRY SCENE IMPACT REST OF GAME (ben)
+ * MAKE SURE THERMOMETER WORKS RIGHT, INCLUDING IN MINIGAMES (individual)
+ ? IMPLEMENT ENDING SCREEN (darvin)
+ * ADD VISUAL INDICATOR FOR THERMOMETER CHANGES (darvin)
+
+BUG FIXING
+ * QUESTIONNAIRE VARIABLES ARE WIPED WHEN SAVING (ben)
+ * ""SHE IS"" VS ""THEY ARE"" (wayne)
+ ? EXPORT IS BROKEN - FULL SCREEN/COLORING BOOK CRASH (wayne, darvin)
+ * RANDOM SOUND STOPPING (darvin)
+ * END SCENE/QUESTIONNAIRE INTERACT POORLY WITH ROLLBACK/SAVE (darvin)
+ * HISTORY/ROLLBACK DOESN'T RESET WHEN RESTARTING OR LOADING
+ * WHY DOESNT DEEP BREATHING WORK (darvin)
+
+OUTSIDE OF THE GAME
+ * GET MARISA SOME SCREENSHOTS FOR HER GRANT PROPOSAL
+ ? DESIGN DOC (review - ike)
+ * SOFTWARE DOC (wayne)
+ * HANDOFF WRITEUP (wayne)
+ * TRAILER VIDEO (ben)
+ * TEAM EVALUATION (individual)
+
+EVENTS
+ * FINAL PLAYTHROUGH
+ * PRACTICE HANDOFF
+ * HANDOFF
+ * GAMEFEST"
