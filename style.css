@@ -1,5 +1,5 @@
 html {
-	background: #CFE4E4;
+	background: #490591;
 }
 body {
 	width: 800px;
@@ -8,13 +8,17 @@ body {
 	background: white;
 	color: #111;
 }
-#title {
-	color: #FF5500;
-	font-size: 70px;
-	font-weight: bold;
-	font-family: "Fanwood Text";
+#logo {
+	text-align: center;
 	margin-bottom: 0;
-	margin-top: 10px;
+}
+#title {
+	color: #490591;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: Arial;
+	margin-bottom: 0;
+	margin-top: 0;
 	text-align: center;
 }
 #subtitle {
@@ -22,25 +26,37 @@ body {
 	font-size: 20px;
 	font-style: italic;
 	margin-bottom: 30px;
-	margin-top: -20px;
+	margin-top: -10px;
 	text-align: center;
 	font-family: "Open Sans"
 }
+#deliverables {
+	margin: 10px;
+	background: #3cc4a9;
+	padding: 10px 30px 30px 30px;
+	color: white;
+}
+#deliverables h2 {
+	color: white;
+}
+#deliverables a {
+	color: white;
+}
 h2 {
-	color: #FFA700;
+	color: #3cc4a9;
 }
 .meetingTitle {
 	cursor: pointer;
 }
 .meetingTitle:hover {
-	color: #FFA700;
+	color: #3cc4a9;
 }
 .rawNotes {
 	white-space: pre-wrap;
 }
 hr {
 	border: none;
-	border-bottom: 1px solid #888;
+	border-bottom: 1px solid #490591;
 	margin: 20px -10px 0 -10px;
 }
 	

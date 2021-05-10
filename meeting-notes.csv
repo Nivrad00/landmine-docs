@@ -756,3 +756,48 @@ to do:
 * meeting with marisa - finalize scripts and thermometer mechanics
 
 REMEMBER: send a note to diane when the game's completely done for final playthrough -- any time before gamefest"
+Wed 5-5-21,Revision meeting ,"note from the final revision meeting - already fixed or no action necessary
+* is the flat 10 mood reduction after 8 seconds of a minigame okay? - it's fine
+* ""department of comp sci and school of education"" is fine for credits
+* Dr. M should be credited as ""Principal Investigator""
+* you can highlight the credits??
+* reentry meeting: if you think no and say no, mood lowers; if you think no and say yes, mood increases; otherwise, neutral
+* chad is being renamed to brad; brad is being renamed to grant (changed in script and in godot)
+
+remaining issues (opened github issues for everything)
+* remove speaker colors, or make them more consistent and better-looking
+* counselor game should always be available if you ask for the support of visiting the counselor during the reentry meeting. otherwise, it should never be available. we decided to leave out the in-class/out-of-class distinction
+* new website host pls - dr. m reached out to IT, will get back to us
+* we just need to test it a lot...
+* we might need to balance the game by making the thermometer increments smaller or making coping strategies more effective. i sent a message to marisa before changing anything
+* we can remove question 1 and question 8 from the questionnaire bc they don't affect any of the scenes anymore. i'm also thinking about removing question 4, as detailed below. i'll run this by marisa before we change anything
+
+current scene assignments
+
+$around_kids        - 
+$around_adults      - 1
+$one_on_one         - 5, 10
+$wrong_thing        - 12
+$picked_on          - 7, 11
+$crowded_places     - 2, 4, 8, 11
+$attention_kids     - 6
+$attention_teachers - 
+
+thinking about changing it to:
+
+$around_kids        - 
+$around_adults      - 1
+$one_on_one         - 5, 10
+$wrong_thing        - 
+$picked_on          - 7, 11, 12
+$crowded_places     - 2, 4, 8, 11
+$attention_kids     - 6
+$attention_teachers - 
+
+which would leave just these questions 
+
+2. Being around a lot of adults in school
+3. Having one-on-one conversations with adults in school
+5. Getting picked on or made fun of by peers
+6. Being in crowded places
+7. Getting a lot of attention from peers"
